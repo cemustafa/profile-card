@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(bg.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+}
+
+.card-header{
+    background-color: rgb(100, 93, 93);
+    height: 500px;
+}
+
+
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    
+}
+
+.job{
+    display: flex;
+    justify-content: center;
+    color: orange;
+    margin: 5px 0px 20px 0px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+
+}
+.social li{
+    margin-right: 30px;
+}
+
+.social li a{
+    color: #fff;
+    font-size: 25px;
+}
+
+button{
+    font-size: 15px;
+    font-weight: 700;
+    padding:10px 50px ;
+    color: orange;
+    background-color: rgb(100, 93, 93);
+    border-color: #fff;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    transition: all .5s ease;   
+}
+button:hover{
+    background-color: #fff;
+    color:orange
+}
+
+
+footer{
+    background-color: #fff;
+    height: 150px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+}
+footer div{
+    margin: 0px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
